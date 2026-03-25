@@ -1,6 +1,6 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-const express = require('express'); // Include the express module
+const express = require('express'); 
 const cookieParser = require('cookie-parser');
 const authRoutes = require('./src/routes/authRoutes');
 const linksRoutes = require('./src/routes/linksRoutes');
