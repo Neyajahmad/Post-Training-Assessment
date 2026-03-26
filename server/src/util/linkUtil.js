@@ -10,4 +10,4 @@ const getDeviceInfo = (userAgent) => {
     };
 };
 
-module.exports = { getDeviceInfo };
+module.exports ={ getDeviceInfo };

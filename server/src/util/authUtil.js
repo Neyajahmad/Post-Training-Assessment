@@ -9,7 +9,7 @@ const attemptToRefreshToken = async (refreshToken) =>{
         //fetch the latest user data from Db across 7 days of
         // refreshtoken lifecycle, user details like credits, subscriptions
         // can change
-        const data = await Users.findById({ _id: decoded.id});
+     const data = await Users.findById({ _id: decoded.id});
 
         const user = {
             id: data._id,

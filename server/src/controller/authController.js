@@ -5,8 +5,8 @@ const { OAuth2Client } = require('google-auth-library');
 const { validationResult } = require('express-validator');
 const send = require('../service/emailService');
 
-// https://www.uuidgenerator.net/
-const secret = process.env.JWT_SECRET;
+// https://www.uuidgenerator.net/ 
+ const secret = process.env.JWT_SECRET;
 const refreshSecret = process.env.JWT_REFRESH_TOKEN_SECRET;
 
 const authController = {

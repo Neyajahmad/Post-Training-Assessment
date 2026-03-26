@@ -6,7 +6,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-.dashboard-header {
+.dashboard-header{
     display: flex;
     justify-content: space-between;
     align-items: center;

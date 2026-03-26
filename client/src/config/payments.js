@@ -1,6 +1,6 @@
 export const CREDIT_PACKS = [10, 20, 50, 100];
 
-export const PLAN_IDS = {
+export const PLAN_IDS ={
     UNLIMITED_YEARLY: {
         id: 'plan_QoFXepjBYTR3qB',
         planName: 'Unlimited Yearly',

@@ -8,7 +8,7 @@ const authorize = (requiredPermission) => {
         if (!user) {
             return response.status(401).json({
                 message: 'Unauthorized access'
-            });
+            }) ;
         }
 
         const userPermissions = permissions[user.role] || [];

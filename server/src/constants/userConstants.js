@@ -8,7 +8,7 @@ const USER_ROLES = [
     DEVELOPER_ROLE
 ];
 
-module.exports = {
+module.exports ={
     USER_ROLES, VIEWER_ROLE, ADMIN_ROLE, DEVELOPER_ROLE
 };
 

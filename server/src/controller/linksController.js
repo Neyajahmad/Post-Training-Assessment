@@ -8,7 +8,7 @@ const { generateUploadSignature } = require("../service/cloudinaryService");
 const linksController = {
     create: async (request, response) => {
         
-        const { campaign_title, original_url, category,  thumbnail  } = request.body;
+    const { campaign_title, original_url, category,  thumbnail  } = request.body;
 
         try {
             const user = await Users.findById({ _id: request.user.id });

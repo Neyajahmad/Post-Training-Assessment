@@ -1,6 +1,6 @@
 import { CLEAR_USER, SET_USER } from "./actions";
 
-export const userReducer = (state = null, action) => {
+export const userReducer = (state = null, action) =>{
     switch (action.type) {
         // This case will help in supporting login case
         case SET_USER:

@@ -9,4 +9,4 @@ function Can({ permission, children }) {
     return permissions[permission] ? children : null;
 }
 
-export default Can;
+export default Can ;

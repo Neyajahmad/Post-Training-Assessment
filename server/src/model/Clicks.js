@@ -14,6 +14,6 @@ const clicksSchema = new mongoose.Schema({
     deviceType: String,
     browser: String,
     clickedAt: { type: Date, default: Date.now },
-});
+}) ;
 
 module.exports = mongoose.model('Clicks', clicksSchema);

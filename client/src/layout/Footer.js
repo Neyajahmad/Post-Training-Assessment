@@ -5,7 +5,7 @@ function Footer() {
           <p>&copy; 2025 Affiliate++. All Rights Reserved.</p>
         </div>
       </footer>
-    );
+    ) ;
 }
 
 export default Footer;

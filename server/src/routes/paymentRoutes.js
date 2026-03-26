@@ -7,7 +7,7 @@ const paymentController = require('../controller/paymentController');
 router.post('/webhook', express.raw({ type: 'application/json' }),
     paymentController.handleWebhookEvent);
 
-router.use(authMiddleware.protect);
+router.use(authMiddleware.protect) ;
 
 router.post('/create-order', authorize('payment:create'), paymentController.createOrder);
 router.post('/verify-order', authorize('payment:create'), paymentController.verifyOrder);

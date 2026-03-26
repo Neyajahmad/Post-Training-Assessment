@@ -11,7 +11,7 @@ const loginValidator = [
     body('password')
         .notEmpty().withMessage('Password is required')
         .isLength({ min: 4 }).withMessage('Password must be atleast 4 characters long')
-];
+] ;
 
 // Rate limiter for password reset (5 requests per hour per IP)
 const resetLimiter = rateLimit({

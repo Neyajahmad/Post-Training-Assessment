@@ -7,7 +7,7 @@ cloudinary.config({
 });
 
 
-const generateUploadSignature = () => {
+const generateUploadSignature = () =>{
     const timestamp = Math.floor(Date.now() /  1000); // convert this into second
 
     const  signature = cloudinary.utils.api_sign_request(

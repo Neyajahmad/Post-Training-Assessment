@@ -25,7 +25,7 @@ ChartJS.register(
     Tooltip,
     Legend,
     Title
-);
+) ;
 
 const formatDate = (isoDateString) => {
     if (!isoDateString) return '';

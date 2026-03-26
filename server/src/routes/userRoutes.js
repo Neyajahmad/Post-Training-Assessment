@@ -4,7 +4,7 @@ const userController = require('../controller/userController');
 const authMiddleware = require('../middleware/authMiddleware');
 const authorize = require('../middleware/authorizeMiddleware');
 
-router.use(authMiddleware.protect);
+router.use(authMiddleware.protect) ;
 
 router.post('/', authorize('user:create'), userController.create);
 router.get('/', authorize('user:read'), userController.getAll);

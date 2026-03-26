@@ -11,7 +11,7 @@ export const ROLE_PERMISSIONS = {
         canDeleteLink: true,
         canEditLink: true,
     },
-    developer: {
+    developer:{
         canViewUser: false,
         canCreateUser: false,
         canDeleteUser: false,

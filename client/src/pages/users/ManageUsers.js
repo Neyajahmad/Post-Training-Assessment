@@ -10,7 +10,7 @@ import './ManageUsers.css'; // Import the new CSS file
 
 const USER_ROLES = ['viewer', 'developer'];
 
-function ManageUsers() {
+function ManageUsers(){
     // --- All existing logic is preserved without changes ---
     const [errors, setErrors] = useState({});
     const [usersData, setUsersData] = useState([]);

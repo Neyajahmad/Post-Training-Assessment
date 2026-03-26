@@ -10,7 +10,7 @@ const subscriptionSchema = new mongoose.Schema({
     nextBillDate: { type: Date },
     paymentsMade: { type: Number },
     paymentsRemaining: { type: Number },
-});
+}) ;
 
 const UsersSchema = new mongoose.Schema({
     email: { type: String, required: true, unique: true },

@@ -7,7 +7,7 @@ import { SET_USER } from "../redux/user/actions"; // Assuming you have this redu
 import './Login.css'; // Import the new CSS file
 import { Link } from "react-router-dom";
 
-function Login() {
+function Login(){
     const dispatch = useDispatch();
     const [formData, setFormData] = useState({
         username: '',

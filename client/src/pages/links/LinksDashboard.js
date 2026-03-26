@@ -10,7 +10,7 @@ import { Modal } from 'react-bootstrap';
 import { usePermission } from '../../rbac/userPermissions';
 import { useNavigate } from 'react-router-dom';
 
-function LinksDashboard() {
+function LinksDashboard(){
     const [errors, setErrors] = useState({});
     const [linksData, setLinksData] = useState([]);
     const navigate = useNavigate();

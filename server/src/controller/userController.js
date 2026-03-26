@@ -10,7 +10,7 @@ const generateTemporaryPassword = () => {
         result += chars.charAt(Math.floor(Math.random() * chars.length));
     }
     return result;
-};
+} ;
 
 const userController = {
     create: async (request, response) => {

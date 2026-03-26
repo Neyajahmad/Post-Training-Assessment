@@ -8,7 +8,7 @@ import './Login.css'; // Reusing the same CSS from the login page for consistenc
 
 function Register() {
     const dispatch = useDispatch();
-    const [formData, setFormData] = useState({
+    const [formData, setFormData] = useState ({
         username: "",
         password: "",
         name: ""

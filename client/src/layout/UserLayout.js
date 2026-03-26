@@ -8,7 +8,7 @@ function UserLayout({ children }) {
             {children}
             <UserFooter />
         </>
-    );
+    ) ;
 }
 
 export default UserLayout;

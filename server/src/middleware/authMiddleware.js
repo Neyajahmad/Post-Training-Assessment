@@ -7,7 +7,7 @@ const authMiddleware = {
             if (!token) {
                 return response.status(401).json({
                     error: 'Unauthorized access'
-                });
+                }) ;
             }
 
             try {

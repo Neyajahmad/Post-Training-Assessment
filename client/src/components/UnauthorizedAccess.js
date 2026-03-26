@@ -1,4 +1,4 @@
-function UnauthorizedAccess() {
+function UnauthorizedAccess(){
     return (
         <div className="container text-center">
             <h2>Unauthorized Access</h2>

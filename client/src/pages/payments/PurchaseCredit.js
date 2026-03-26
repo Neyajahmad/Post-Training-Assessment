@@ -7,7 +7,7 @@ import { SET_USER } from "../../redux/user/actions";
 import './PurchaseCredit.css';
 import { Modal, Button } from "react-bootstrap";
 
-function PurchaseCredit() {
+function PurchaseCredit(){
     // --- All existing logic is preserved without changes ---
     const dispatch = useDispatch();
     const userDetails = useSelector((state) => state.userDetails);

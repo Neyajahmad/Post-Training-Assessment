@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css'; // Make sure to create and link this CSS file
 
-function Home() {
+function Home(){
   return (
     <>
 

@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { serverEndpoint } from "../config/config";
 
-function ForgetPassword() {
+function ForgetPassword(){
     const [email, setEmail] = useState("");
     const [error, setError] = useState("");
     const [loading, setLoading] = useState(false);

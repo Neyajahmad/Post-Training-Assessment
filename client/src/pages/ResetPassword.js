@@ -8,7 +8,7 @@ function ResetPassword() {
     const location = useLocation();
     const navigate = useNavigate();
     const reduxUser = useSelector(state => state.userDetails);
-    // Prefer email from location.state, then redux, then empty
+    //Prefer email from location.state, then redux, then empty
     const initialEmail = location.state?.email || reduxUser?.email || "";
     const hideEmail = !!(location.state?.email || reduxUser?.email);
     const [form, setForm] = useState({
