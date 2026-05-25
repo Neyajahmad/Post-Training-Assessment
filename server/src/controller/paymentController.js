@@ -16,7 +16,7 @@ const paymentController = {
 
             if (!CREDIT_PACKS[credits]) {
                 return response.status(400).json({
-                    message: 'Invalid credit value'
+                     message: 'Invalid credit value'
                 });
             }
 

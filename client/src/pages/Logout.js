@@ -21,7 +21,7 @@ function Logout() {
             dispatch({
                 type: CLEAR_USER
             });
-        } catch (error) {
+        } catch (error)  {
             console.log(error);
             navigate('/error');
         }

@@ -20,7 +20,7 @@ app.use((req, res, next) => {
     return next();
   }
 
-  express.json()(req, res, next);
+   express.json()(req, res, next) ;
 }) ;
 
 app.use(cookieParser());

@@ -12,4 +12,4 @@ function AppLayout({ children }){
     );
 }
 
-export default AppLayout;
+export default AppLayout ;

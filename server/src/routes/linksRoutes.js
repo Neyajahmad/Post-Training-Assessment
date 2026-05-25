@@ -18,4 +18,4 @@ router.post('/generate-upload-signature', authorize('link:create'), linksControl
 
 
 
-module.exports = router;
+ module.exports = router;

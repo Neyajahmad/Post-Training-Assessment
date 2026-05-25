@@ -14,7 +14,7 @@ const linksController = {
             const user = await Users.findById({ _id: request.user.id });
 
             const hasActiveSubscription = user.subscription &&
-                user.subscription.status === 'active';
+                 user.subscription.status === 'active';
 
             if (!hasActiveSubscription && user.credits < 1) {
                 return response.status(400).json({

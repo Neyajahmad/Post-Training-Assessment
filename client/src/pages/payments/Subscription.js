@@ -15,7 +15,7 @@ function formatDate(isoDateString) {
         }).format(date);
     } catch (error) {
         console.error('Invalid date:', isoDateString);
-        return '';
+        return '' ;
     }
 }
 

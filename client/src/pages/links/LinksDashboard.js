@@ -19,7 +19,7 @@ function LinksDashboard(){
     const [isEdit, setIsEdit] = useState(false);
 
     const [showDeleteModal, setShowDeleteModal] = useState(false);
-    const permission = usePermission();
+    const permission = usePermission() ;
 
     const [thumbnailFile, setThumbnailFile] = useState(null);
     const [previewUrl, setPreviewUrl] = useState('');

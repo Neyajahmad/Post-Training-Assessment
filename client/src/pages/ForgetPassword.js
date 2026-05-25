@@ -14,7 +14,7 @@ function ForgetPassword(){
         e.preventDefault();
         setError("");
         setSuccess("");
-        setLoading(true);
+        setLoading(true) ;
         try {
             await axios.post(`${serverEndpoint}/auth/send-reset-password-token`, { email });
             setSuccess("If the email exists, a reset code has been sent.");

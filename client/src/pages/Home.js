@@ -18,7 +18,7 @@ function Home(){
       <section className="features-section">
         <div className="container text-center">
           <h2 className="mb-5">Why You'll Love Affiliate++</h2>
-          <div className="row">
+          <div className="row" >
             <div className="col-md-3">
               <div className="feature-icon"><i className="bi bi-link-45deg"></i></div>
               <h3 className="feature-title">URL Shortening</h3>

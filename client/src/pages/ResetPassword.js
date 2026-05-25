@@ -21,7 +21,7 @@ function ResetPassword() {
     const [success, setSuccess] = useState("");
     const [loading, setLoading] = useState(false);
 
-    const handleChange = e => {
+    const handleChange = e =>  {
         setForm({ ...form, [e.target.name]: e.target.value });
     };
 

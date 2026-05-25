@@ -15,7 +15,7 @@ function PurchaseCredit(){
     const [message, setMessage] = useState(null);
     const [showModal, setShowModal] = useState(false);
 
-    const handleBuyCredits = async (credits) => {
+    const handleBuyCredits = async (credits) =>  {
         setShowModal(false);
         try {
             const { data } = await axios.post(`${serverEndpoint}/payments/create-order`, {

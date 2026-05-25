@@ -18,4 +18,4 @@ const generateUploadSignature = () =>{
     return  { signature, timestamp }
 };
 
-module.exports = { generateUploadSignature };
+ module.exports = { generateUploadSignature };

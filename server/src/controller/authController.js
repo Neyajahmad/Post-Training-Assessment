@@ -14,7 +14,7 @@ const authController = {
         try {
             const errors = validationResult(request);
             if (!errors.isEmpty()) {
-                return response.status(401).json({ errors: errors.array() });
+                 return response.status(401).json({ errors: errors.array() });
             }
 
             // The body contains username and password because of the express.json()

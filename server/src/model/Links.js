@@ -9,5 +9,5 @@ const linkSchema = new mongoose.Schema({
     user: { type: mongoose.Schema.Types.ObjectId, ref: 'Users', required: true }
 }, { timestamps: true }) ;
 
-module.exports = mongoose.model('links', linkSchema);
+module.exports =  mongoose.model('links', linkSchema);
 

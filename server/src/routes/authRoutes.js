@@ -14,7 +14,7 @@ const loginValidator = [
 ] ;
 
 // Rate limiter for password reset (5 requests per hour per IP)
-const resetLimiter = rateLimit({
+ const resetLimiter = rateLimit({
     windowMs: 60 * 60 * 1000, // 1 hour
     max: 5,
     message: { message: 'Too many reset requests from this IP, please try again after an hour.' }

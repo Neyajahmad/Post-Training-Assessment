@@ -21,7 +21,7 @@ const attemptToRefreshToken = async (refreshToken) =>{
         };
 
         // change expiry to 1 hour after testing.
-        const newAccessToken = jwt.sign(user, secret, { expiresIn: '1h'});
+         const newAccessToken = jwt.sign(user, secret, { expiresIn: '1h'});
 
         return {newAccessToken, user};
     }catch(error){

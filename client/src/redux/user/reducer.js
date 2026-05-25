@@ -12,6 +12,6 @@ export const userReducer = (state = null, action) =>{
         // Handles case where other state update triggers
         // userDetails' reducer
         default:
-            return state;
+            return state ;
     }
 };

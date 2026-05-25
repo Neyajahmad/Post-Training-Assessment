@@ -14,7 +14,7 @@ const authorize = (requiredPermission) => {
         const userPermissions = permissions[user.role] || [];
         if (!userPermissions.includes(requiredPermission)) {
             return response.status(403).json({
-                message: 'Forbidden: Insufficient Permission'
+                 message: 'Forbidden: Insufficient Permission'
             });
         }
 

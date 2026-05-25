@@ -21,7 +21,7 @@ export const ROLE_PERMISSIONS = {
         canDeleteLink: false,
         canEditLink: false,
     },
-    viewer: {
+    viewer:  {
         canViewUser: true,
         canCreateUser: false,
         canDeleteUser: false,

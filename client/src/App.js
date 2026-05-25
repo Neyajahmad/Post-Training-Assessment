@@ -19,7 +19,7 @@ import ProtectedRoute from "./rbac/ProtectedRoute";
 import ManagePayments from "./pages/payments/ManagePayments";
 import AnalyticsDashboard from "./pages/links/AnalyticsDashboard";
 import ForgetPassword from "./pages/ForgetPassword";
-import ResetPassword from "./pages/ResetPassword";
+import ResetPassword from  "./pages/ResetPassword";
 
 function App() {
   // const [userDetails, setUserDetails] = useState(null);

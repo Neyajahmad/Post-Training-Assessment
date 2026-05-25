@@ -18,7 +18,7 @@ const userController = {
             const { name, email, role } = request.body;
 
             if (!USER_ROLES.includes(role)) {
-                return response.status(400).json({
+                 return response.status(400).json({
                     message: 'Invalid role'
                 });
             }

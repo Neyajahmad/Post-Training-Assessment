@@ -17,7 +17,7 @@ function Register() {
     const [errors, setErrors] = useState({});
 
     // --- No changes to the logic, keeping it as is. ---
-    const handleChange = (event) => {
+    const handleChange = (event) =>  {
         const name = event.target.name;
         const value = event.target.value;
 

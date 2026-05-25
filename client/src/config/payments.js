@@ -7,7 +7,7 @@ export const PLAN_IDS ={
         description: 'Yearly subscription, 2 months free',
         totalBillingCycleCount: 5
     },
-    UNLIMITED_MONTHLY: {
+    UNLIMITED_MONTHLY:{
         id: 'plan_QoFVv8WQwBXdua',
         planName: 'Unlimited Monthly',
         description: 'Monthly subscription',

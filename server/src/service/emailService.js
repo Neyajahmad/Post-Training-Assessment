@@ -19,4 +19,4 @@ const send = async (to, subject, body) =>{
     await transporter.sendMail(emailOptions);
 };
 
-module.exports = send;
+ module.exports = send;

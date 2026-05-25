@@ -20,7 +20,7 @@ function ManageUsers(){
         name: '',
         role: ''
     });
-    const [showModal, setShowModal] = useState(false);
+    const  [showModal, setShowModal] = useState(false);
     const [isEdit, setIsEdit] = useState(false);
     const [loading, setLoading] = useState(false);
     const [formLoading, setFormLoading] = useState(false);

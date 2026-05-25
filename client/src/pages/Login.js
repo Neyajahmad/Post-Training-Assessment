@@ -20,7 +20,7 @@ function Login(){
         const name = e.target.name;
         const value = e.target.value;
 
-        setFormData({
+        setFormData ({
             ...formData,
             [name]: value
         });

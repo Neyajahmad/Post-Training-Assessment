@@ -10,4 +10,4 @@ function UnauthorizedAccess(){
     );
 }
 
-export default UnauthorizedAccess;
+export default UnauthorizedAccess  ;

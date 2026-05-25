@@ -10,4 +10,4 @@ function ProtectedRoute({ roles, children }) {
         <Navigate to="/unauthorized-access" />;
 }
 
-export default ProtectedRoute ;
+export default ProtectedRoute  ;
