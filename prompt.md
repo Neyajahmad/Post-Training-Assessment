@@ -77,7 +77,7 @@ Use React Router for implementing client side routing and navigation across page
 
 **Chart.js**
 
-Use Chart.js or Recharts for building interactive analytics dashboards.
+Use Chart.js for building interactive analytics dashboards.
 
 # **Required Frontend Pages**
 
