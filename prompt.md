@@ -1,12 +1,12 @@
 # **Prompt** 
 
-Act as Senior Full Stack MERN Developer and SaaS Architect. My job is to build an Affiliate Link Management Platform for people like content creators and affiliate marketers. This platform is also for YouTubers  bloggers  freelancers and small businesses.
+Act as Senior Full Stack MERN Developer and SaaS Architect. Your job is to build an Affiliate Link Management Platform for people like content creators and affiliate marketers. This platform is also for YouTubers  bloggers  freelancers and small businesses.
 
-The problem is that affiliate marketers have to deal with a lot of issues. They have to manage hundreds of affiliate links by hand. They lose data about how their links perform..
+The problem is that affiliate marketers have to deal with a lot of issues. They have to manage hundreds of affiliate links by hand. They lose data about how their links perform.
 
 The platform I want to building will have a dashboard. From this dashboard users can create new affiliate links organize them make them shorter manage them and track them. They can also see how their links are doing in time.This includes things like how many peoples are clicking on the links  what kind of devices they are using what browser they have how much traffic they are getting and where the users are from.
 
-My main goal is to make sure the platform can handle a lot of users. It has to be safe and work well. The platform also has to be easy to use on devices. It needs to have an user interface and experience. The platform will have subscription plans. It will also have analytics and a smooth user experience. The Affiliate Link Management Platform will let different users work together and have their roles. This means some users can do things  than others. The platform will also let many users work together at the time.
+My main goal is to make sure the platform can handle a lot of users. It has to be safe and work well. The platform also has to be easy to use on devices. It needs to have an user interface and experience. The platform will have subscription plans. It will also have analytics and a smooth user experience. The Affiliate Link Management Platform will let different users work together and have their roles. This means some users can do things than others. The platform will also let many users work together at the time.
 
 # **Project Objective**
 
