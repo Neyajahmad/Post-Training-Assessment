@@ -73,7 +73,7 @@ Use Axios for secure communication between frontend and backend APIs.
 
 Use React Router for implementing client side routing and navigation across pages such as login  register  dashboard  analytics  subscriptions  admin panel  and profile settings.
 
-**Chart.js or Recharts**
+**Chart.js**
 
 Use Chart.js or Recharts for building interactive analytics dashboards.
 
