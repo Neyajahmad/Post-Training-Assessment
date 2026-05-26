@@ -1,5 +1,7 @@
 # **Prompt** 
 
+# **Context and Role**
+
 Act as Senior Full Stack MERN Developer and SaaS Architect. Your job is to build an Affiliate Link Management Platform for people like content creators and affiliate marketers. This platform is also for YouTubers  bloggers  freelancers and small businesses.
 
 The problem is that affiliate marketers have to deal with a lot of issues. They have to manage hundreds of affiliate links by hand. They lose data about how their links perform.
